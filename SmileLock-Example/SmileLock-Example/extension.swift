@@ -26,8 +26,8 @@ extension UIColor {
     class func hexStr(_ str: String, alpha: CGFloat) -> UIColor {
         let hexStr = str.replacingOccurrences(of: "#", with: "")
         let scanner = Scanner(string: hexStr)
-        var color: UInt32 = 0
-        if scanner.scanHexInt32(&color) {
+        var color: UInt64 = 0
+        if scanner.scanHexInt64(&color) {
             let r = CGFloat((color & 0xFF0000) >> 16) / 255.0
             let g = CGFloat((color & 0x00FF00) >> 8) / 255.0
             let b = CGFloat(color & 0x0000FF) / 255.0

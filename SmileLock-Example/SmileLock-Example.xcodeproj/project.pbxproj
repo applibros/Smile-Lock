@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		95284A1808A8C082E917AD51 /* Pods_SmileLock_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA1702F1AC31AA3EDCA5FE7 /* Pods_SmileLock_Example.framework */; };
+		99409439926D0340CA61AEF3 /* Pods_SmileLock_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A31F0F91F2E57430205F509F /* Pods_SmileLock_Example.framework */; };
 		B7A42F881CD2588B00FEB7B0 /* BlurPasswordLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A42F861CD2588B00FEB7B0 /* BlurPasswordLoginViewController.swift */; };
 		B7BAFB411D3B521F009E70FA /* MyPasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BAFB401D3B521F009E70FA /* MyPasswordUIValidation.swift */; };
 		B7BF17D61EA60D7F00D3D46B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7BF17D51EA60D7F00D3D46B /* Localizable.strings */; };
@@ -41,8 +41,9 @@
 
 /* Begin PBXFileReference section */
 		1D7E32E52142604800A5227D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		3DA1702F1AC31AA3EDCA5FE7 /* Pods_SmileLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmileLock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C52457304DEFE4405D2D34B /* Pods-SmileLock-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileLock-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		34D39A8E88A2833CDCEE3596 /* Pods-SmileLock-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileLock-Example.debug.xcconfig"; path = "Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4323AD2888085D74F3F5F011 /* Pods-SmileLock-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileLock-Example.release.xcconfig"; path = "Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example.release.xcconfig"; sourceTree = "<group>"; };
+		A31F0F91F2E57430205F509F /* Pods_SmileLock_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmileLock_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A42F861CD2588B00FEB7B0 /* BlurPasswordLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurPasswordLoginViewController.swift; sourceTree = "<group>"; };
 		B7BAFB401D3B521F009E70FA /* MyPasswordUIValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPasswordUIValidation.swift; sourceTree = "<group>"; };
 		B7BF17D51EA60D7F00D3D46B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		B7E3A1DF1CCC67A4005F680E /* PasswordLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordLoginViewController.swift; sourceTree = "<group>"; };
 		B7E3A1E01CCC67A4005F680E /* PasswordLogin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PasswordLogin.storyboard; sourceTree = "<group>"; };
 		B7E3A1E31CCC68A3005F680E /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
-		F1E646CC82DCC7E6193CF7E7 /* Pods-SmileLock-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmileLock-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95284A1808A8C082E917AD51 /* Pods_SmileLock_Example.framework in Frameworks */,
+				99409439926D0340CA61AEF3 /* Pods_SmileLock_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,19 +90,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		84610C31033B689ADD8164FA /* Pods */ = {
+		1BDAF1C49625381CEC9E858C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C52457304DEFE4405D2D34B /* Pods-SmileLock-Example.debug.xcconfig */,
-				F1E646CC82DCC7E6193CF7E7 /* Pods-SmileLock-Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9AD50015CB0A58A7A6FCD930 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DA1702F1AC31AA3EDCA5FE7 /* Pods_SmileLock_Example.framework */,
+				A31F0F91F2E57430205F509F /* Pods_SmileLock_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,8 +105,8 @@
 				B7E3A1C11CCC6449005F680E /* SmileLock-ExampleTests */,
 				B7E3A1CC1CCC6449005F680E /* SmileLock-ExampleUITests */,
 				B7E3A1AB1CCC6448005F680E /* Products */,
-				84610C31033B689ADD8164FA /* Pods */,
-				9AD50015CB0A58A7A6FCD930 /* Frameworks */,
+				C490F5C9CE4E700E5FEF142E /* Pods */,
+				1BDAF1C49625381CEC9E858C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +156,16 @@
 			path = "SmileLock-ExampleUITests";
 			sourceTree = "<group>";
 		};
+		C490F5C9CE4E700E5FEF142E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D39A8E88A2833CDCEE3596 /* Pods-SmileLock-Example.debug.xcconfig */,
+				4323AD2888085D74F3F5F011 /* Pods-SmileLock-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,12 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7E3A1D21CCC6449005F680E /* Build configuration list for PBXNativeTarget "SmileLock-Example" */;
 			buildPhases = (
-				E94D3D0076E59F50141B5508 /* Check Pods Manifest.lock */,
+				75744516EE42CE06B71C9415 /* [CP] Check Pods Manifest.lock */,
 				B7E3A1A61CCC6448005F680E /* Sources */,
 				B7E3A1A71CCC6448005F680E /* Frameworks */,
 				B7E3A1A81CCC6448005F680E /* Resources */,
-				54F640F528E29B80C9A5B31A /* Embed Pods Frameworks */,
-				691BACA772A8A94723A9A37F /* Copy Pods Resources */,
+				D4EF1F93EED8D22B419DF77D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,49 +300,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		54F640F528E29B80C9A5B31A /* Embed Pods Frameworks */ = {
+		75744516EE42CE06B71C9415 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmileLock-Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		691BACA772A8A94723A9A37F /* Copy Pods Resources */ = {
+		D4EF1F93EED8D22B419DF77D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SmileLock/SmileLock.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmileLock.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E94D3D0076E59F50141B5508 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmileLock-Example/Pods-SmileLock-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -453,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -504,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -515,12 +510,12 @@
 		};
 		B7E3A1D31CCC6449005F680E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C52457304DEFE4405D2D34B /* Pods-SmileLock-Example.debug.xcconfig */;
+			baseConfigurationReference = 34D39A8E88A2833CDCEE3596 /* Pods-SmileLock-Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SmileLock-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.SmileLock-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -530,12 +525,12 @@
 		};
 		B7E3A1D41CCC6449005F680E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1E646CC82DCC7E6193CF7E7 /* Pods-SmileLock-Example.release.xcconfig */;
+			baseConfigurationReference = 4323AD2888085D74F3F5F011 /* Pods-SmileLock-Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SmileLock-Example/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.SmileLock-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";

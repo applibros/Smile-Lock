@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol PasswordInputViewTappedProtocol: class {
+public protocol PasswordInputViewTappedProtocol: AnyObject {
     func passwordInputView(_ passwordInputView: PasswordInputView, tappedString: String)
 }
 
@@ -212,7 +212,6 @@ private extension PasswordInputView {
 
 internal extension NSLayoutConstraint {
     class func addConstraints(fromView view: UIView, toView baseView: UIView, constraintInsets insets: UIEdgeInsets) {
-        baseView.topAnchor.constraint(equalTo: view.topAnchor, constant: -insets.top)
         let topConstraint = baseView.topAnchor.constraint(equalTo: view.topAnchor, constant: -insets.top)
         let bottomConstraint = baseView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: insets.bottom)
         let leftConstraint = baseView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: -insets.left)
